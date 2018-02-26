@@ -5,9 +5,7 @@
   "scripts": {
     "start": "node app"
   },
-  "dependencies": {
-    "bdt105toolbox": "^1.0.65"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^8.0.44"
   }
