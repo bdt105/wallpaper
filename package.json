@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node app"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.83.0"
+  },
   "devDependencies": {
     "@types/node": "^8.0.44"
   }
