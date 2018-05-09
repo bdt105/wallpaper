@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "sourceMaps": true,
-            "program": "${workspaceFolder}/dist/server.js",
+            "program": "${workspaceFolder}/dist/change.js",
             "cwd": "${workspaceRoot}/dist/",
             "outFiles": [
                 "${workspaceRoot}/dist/**/*.js"

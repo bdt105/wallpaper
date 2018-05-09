@@ -29,6 +29,7 @@ export class Wallpaper {
                         console.log(err);
                     } else {
                         console.log("The file was saved!");
+                        this.setWallpaperFile();
                     }
                 }); 
             }
