@@ -24,7 +24,7 @@ export class Wallpaper {
         this.loadConf();
         this.request.get({url:this.conf.url, encoding: 'binary'}, 
             (err, response, body) => {
-                this.fs.writeFile(this.conf.imageFileName, body, 'binary', function(err) {
+                this.fs.writeFile(this.conf.imageFileName, body, 'binary', (err) => {
                     if(err){
                         console.log(err);
                     } else {

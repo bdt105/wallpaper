@@ -30,7 +30,7 @@ var Wallpaper = /** @class */ (function () {
                 }
                 else {
                     console.log("The file was saved!");
-                    this.setWallpaperFile();
+                    _this.setWallpaperFile();
                 }
             });
         });
