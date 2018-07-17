@@ -34,7 +34,7 @@ export class Wallpaper {
                 }); 
             }
         );
-    };
+    }
         
     setWallpaperFile(){
         var { spawnSync } = require( 'child_process' )

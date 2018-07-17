@@ -35,7 +35,6 @@ var Wallpaper = /** @class */ (function () {
             });
         });
     };
-    ;
     Wallpaper.prototype.setWallpaperFile = function () {
         var spawnSync = require('child_process').spawnSync;
         var pwd = spawnSync('pwd');
